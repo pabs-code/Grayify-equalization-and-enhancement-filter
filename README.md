@@ -78,4 +78,4 @@ For questions or support, please contact [Your Name](mailto:your.email@example.c
 This project was inspired by the need for a straightforward grayscale converter with histogram generation and simple filters. Thanks to Streamlit for providing an easy way to create web apps in Python!
 
 ## License
-This project is licensed under the MIT License - see [LICENSE](https://github.com/yourusername/image_to_grayscale_converter/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see [LICENSE](https://github.com/pabs-code/image-grayscale-histogram-generator/blob/main/LICENSE) file for details.
