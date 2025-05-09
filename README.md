@@ -10,9 +10,6 @@
   - [Requirements](#requirements)
   - [Setup Instructions](#setup-instructions)
   - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Contact Information](#contact-information)
   - [Acknowledgments](#acknowledgments)
   - [License](#license)
 
@@ -56,23 +53,8 @@ Note: Ensure you have [Streamlit](https://www.streamlit.io/install) installed on
 4. A histogram of pixel intensities will be generated and displayed below the grayscale image.
 5. Optionally, you can apply an Equalize (histogram equalization) or Enhance (contrast enhancement) filter.
 
-## Contributing
-Contributions are welcome! Feel free to report bugs, request new features, or submit pull requests. Please follow the [Code of Conduct](https://github.com/yourusername/image_to_grayscale_converter/blob/master/CODE_OF_CONDUCT.md).
-
-1. Fork this repository.
-2. Create a new branch for your feature (`git checkout -b feature/awesome-feature`).
-3. Commit your changes (`git commit -m 'Add some awesome feature'`).
-4. Push to the branch (`git push origin feature/awesome-feature`).
-5. Submit a pull request.
-
-## Tests
-This project includes unit tests in `test_main.py` file using Python's built-in `unittest` framework. To run the tests, execute:
-```bash
-python -m unittest test_main.py
-```
-
 ## Contact Information
-For questions or support, please contact [Your Name](mailto:your.email@example.com).
+For questions or support, please contact [Pabs-code](mailto:your.email@example.com).
 
 ## Acknowledgments
 This project was inspired by the need for a straightforward grayscale converter with histogram generation and simple filters. Thanks to Streamlit for providing an easy way to create web apps in Python!
