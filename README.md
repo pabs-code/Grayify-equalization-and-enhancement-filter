@@ -3,8 +3,6 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
 ## Table of Contents
-- [Image to Grayscale Converter](#image-to-grayscale-converter)
-  - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Features](#features)
   - [Requirements](#requirements)
