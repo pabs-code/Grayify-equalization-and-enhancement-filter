@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-## Table of Contents
+## 📚 Table of Contents
   - [About](#about)
   - [Features](#features)
   - [Requirements](#requirements)
