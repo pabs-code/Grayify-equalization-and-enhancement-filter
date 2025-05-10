@@ -1,4 +1,4 @@
-# Image histogram equalization and contrast enhancement filter
+# Grayify: Image histogram equalization and contrast enhancement filter
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -12,7 +12,7 @@
   - [License](#license)
 
 ## About
-This Streamlit application converts an uploaded image to grayscale and generates a histogram of pixel intensities. It also offers two filter options - Equalize (histogram equalization) and Enhance (contrast enhancement). This project uses Python libraries such as `streamlit`, `Pillow` for image processing, `numpy`, `matplotlib`, and `opencv-python`.
+Grayify is a Streamlit application that converts an uploaded image to grayscale and generates a histogram of pixel intensities. It also offers two filter options - Equalize (histogram equalization) and Enhance (contrast enhancement). This project uses Python libraries such as `streamlit`, `Pillow` for image processing, `numpy`, `matplotlib`, and `opencv-python`.
 
 ## Features
 1. Image upload capability
