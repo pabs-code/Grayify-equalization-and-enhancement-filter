@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-## 📚 Table of Contents
+## Table of Contents
   - [About](#about)
   - [Features](#features)
   - [Requirements](#requirements)
@@ -51,8 +51,6 @@ Note: Ensure you have [Streamlit](https://www.streamlit.io/install) installed on
 4. A histogram of pixel intensities will be generated and displayed below the grayscale image.
 5. Optionally, you can apply an Equalize (histogram equalization) or Enhance (contrast enhancement) filter.
 
-## Contact Information
-For questions or support, please contact [Pabs-code](mailto:your.email@example.com).
 
 ## Acknowledgments
 This project was inspired by the need for a straightforward grayscale converter with histogram generation and simple filters. Thanks to Streamlit for providing an easy way to create web apps in Python!
