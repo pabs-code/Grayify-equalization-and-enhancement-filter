@@ -92,7 +92,7 @@ or run the provided ```requirements.txt``` file.
 To run the app, use the following command in your terminal:
 
 ```bash
-streamlit run main.py
+streamlit run app.py
 ```
 
 This will start a local development server and open the Streamlit app in your browser.
@@ -110,14 +110,12 @@ This will start a local development server and open the Streamlit app in your br
 
 ## Demo
 
-Here's a quick overview of how the app works:
+**Here's a quick overview of how the app works:**
 
-1. Upload an image using the file uploader.
-2. The original and grayscale versions are displayed side-by-side.
-3. A histogram is shown for pixel intensity distribution.
-4. Select a filter (Enhance or Equalize) to modify the image further.
+https://github.com/user-attachments/assets/37da075c-0589-4fb2-80cc-c977bc79918a
 
-> 📌 *Note: This is not a video, but you can imagine how it works by running the app locally.*
+
+
 
 ---
 
