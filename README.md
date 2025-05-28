@@ -2,58 +2,133 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
-## Table of Contents
-  - [About](#about)
+
+> A simple Streamlit application that allows users to upload images, convert them to grayscale, generate histograms, and apply basic image filters like contrast enhancement or histogram equalization.
+
+---
+
+### Table of Contents
+
+- [Grayify: Image histogram equalization and contrast enhancement filter](#grayify-image-histogram-equalization-and-contrast-enhancement-filter)
+    - [Table of Contents](#table-of-contents)
+  - [About the Project](#about-the-project)
   - [Features](#features)
-  - [Requirements](#requirements)
-  - [Setup Instructions](#setup-instructions)
-  - [Usage](#usage)
+  - [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running Script](#running-script)
+  - [Expectations When Running This App](#expectations-when-running-this-app)
+  - [Demo](#demo)
   - [Acknowledgments](#acknowledgments)
   - [License](#license)
 
-## About
-Grayify is a Streamlit application that converts an uploaded image to grayscale and generates a histogram of pixel intensities. It also offers two filter options - Equalize (histogram equalization) and Enhance (contrast enhancement). This project uses Python libraries such as `streamlit`, `Pillow` for image processing, `numpy`, `matplotlib`, and `opencv-python`.
+---
+
+## About the Project
+
+This app is a simple yet powerful demonstration of image processing using **Python**, **Streamlit**, and **Pillow**.
+
+It provides an intuitive interface to:
+- Upload images
+- Convert them to grayscale
+- Visualize histograms of pixel intensities
+- Apply basic filters like contrast enhancement or histogram equalization
+
+---
 
 ## Features
-1. Image upload capability
-2. Conversion to grayscale
-3. Generation of pixel intensity histogram
-4. Two filter options: Equalize and Enhance
-5. A user-friendly interface powered by Streamlit
 
-## Requirements
-The application requires the following Python packages:
-- `streamlit`
-- `Pillow` (for image processing)
-- `numpy`
-- `matplotlib`
-- `opencv-python`
+| Feature              | Description                                                                        |
+| -------------------- | ---------------------------------------------------------------------------------- |
+| Image Upload         | Supports JPG, JPEG, and PNG formats.                                               |
+| Grayscale Conversion | Converts uploaded image to grayscale using Pillow's `ImageOps.grayscale()` method. |
+| Histogram Generation | Displays a histogram of pixel intensities using Matplotlib.                        |
+| Image Filters        | Includes options for **contrast enhancement** or **histogram equalization**.       |
 
-You can install them using pip:
+---
+
+## Getting Started
+
+Clone the repository and set up your environment to run the app.
+
+---
+
+## Prerequisites
+
+Before running this application, make sure you have the following installed:
+
+- Python 3.8+
+- Streamlit (`pip install streamlit`)
+- Pillow (`pip install pillow`)
+- Matplotlib (`pip install matplotlib`)
+- Numpy (`pip install numpy`)
+
+You can install all dependencies with:
+
 ```bash
-pip install streamlit Pillow numpy matplotlib opencv-python
+pip install streamlit pillow matplotlib numpy
 ```
 
-## Setup Instructions
-1. Clone this repository to your local machine.
-2. Navigate into the project directory (e.g., `cd image_to_grayscale_converter`).
-3. Run the app using Streamlit:
+or run the provided ```requirements.txt``` file.
+
+---
+
+## Installation
+
+1. Clone the repository (or download it as a ZIP):
    ```bash
-   streamlit run main.py
+   git clone https://github.com/your-repo-url.git
    ```
-   
-Note: Ensure you have [Streamlit](https://www.streamlit.io/install) installed on your machine to run this application.
 
-## Usage
-1. Open `main.py` in your browser (e.g., http://localhost:8501 if you're using Streamlit's default settings).
-2. Click on "Choose an image..." button to upload a JPG, JPEG, or PNG file.
-3. After uploading, the app will display the original image and convert it to grayscale.
-4. A histogram of pixel intensities will be generated and displayed below the grayscale image.
-5. Optionally, you can apply an Equalize (histogram equalization) or Enhance (contrast enhancement) filter.
+2. Navigate to the project directory:
+   ```bash
+   cd image-to-grayscale-converter
+   ```
 
+---
+
+## Running Script
+
+To run the app, use the following command in your terminal:
+
+```bash
+streamlit run main.py
+```
+
+This will start a local development server and open the Streamlit app in your browser.
+
+---
+
+## Expectations When Running This App
+
+- Upload an image file (JPG, JPEG, or PNG).
+- The original image is displayed alongside its grayscale version.
+- A histogram of pixel intensities is shown for the grayscale image.
+- You can apply filters like **enhance** or **equalize** to further process the image.
+
+---
+
+## Demo
+
+Here's a quick overview of how the app works:
+
+1. Upload an image using the file uploader.
+2. The original and grayscale versions are displayed side-by-side.
+3. A histogram is shown for pixel intensity distribution.
+4. Select a filter (Enhance or Equalize) to modify the image further.
+
+> 📌 *Note: This is not a video, but you can imagine how it works by running the app locally.*
+
+---
 
 ## Acknowledgments
-This project was inspired by the need for a straightforward grayscale converter with histogram generation and simple filters. Thanks to Streamlit for providing an easy way to create web apps in Python!
+
+- **Streamlit** – For creating the web interface.
+- **Pillow** – For handling and manipulating images.
+- **Matplotlib** – For generating histograms.
+- **Numpy** – For array operations.
+
+---
 
 ## License
-This project is licensed under the MIT License - see [LICENSE](https://github.com/pabs-code/image-grayscale-histogram-generator/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see [LICENSE](https://github.com/pabs-code/grayify-equalize-enhance-filter/blob/main/LICENSE) file for details.
