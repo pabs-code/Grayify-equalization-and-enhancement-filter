@@ -1,4 +1,4 @@
-# Grayscale Image Equalization and Contrast Enhancement Filter
+# Grayscale Image Equalization & Enhancement Filter
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
