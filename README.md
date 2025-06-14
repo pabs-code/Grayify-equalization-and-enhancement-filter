@@ -1,4 +1,4 @@
-# Grayify: Image histogram equalization and contrast enhancement filter
+# Grayscale Image Equalization and Contrast Enhancement Filter
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -8,9 +8,6 @@
 ---
 
 ### Table of Contents
-
-- [Grayify: Image histogram equalization and contrast enhancement filter](#grayify-image-histogram-equalization-and-contrast-enhancement-filter)
-    - [Table of Contents](#table-of-contents)
   - [About the Project](#about-the-project)
   - [Features](#features)
   - [Getting Started](#getting-started)
